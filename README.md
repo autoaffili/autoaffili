@@ -8,3 +8,5 @@ Install and use instructions:
 3) Start your stream and mention a product. The bot posts an Amazon general search query link in chat that relates to your product mention.
 4) When a viewer clicks on the link and makes a purchase within 24 hours (set by amazon) you will be rewarded with a commission.
 5) 100% Commission will be donated via twitch or other available donation options on your channel.
+
+At the moment only for viewers in USA, Canada, Germany, France, Spain, UK, Italy.
