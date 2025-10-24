@@ -10,3 +10,5 @@ Install and use instructions:
 5) 100% Commission will be donated via twitch or other available donation options on your channel.
 
 At the moment only for viewers in USA, Canada, Germany, France, Spain, UK, Italy.
+At the moment only for English streamers.
+At the moment only Windows
