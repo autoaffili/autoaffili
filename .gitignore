@@ -25,7 +25,7 @@ MANIFEST
 # 🧱 ENVIRONMENTS: Virtualenvs, caches, and dependency folders
 # ------------------------------------------------------------------------------
 .venv/
-venv311/
+.venv311/
 venv/
 env/
 ENV/
