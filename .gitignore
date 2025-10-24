@@ -1,0 +1,158 @@
+################################################################################
+# OBS Smart Links - Comprehensive .gitignore
+# For Windows + Python + Inno Setup project where the installer bundles outputs
+################################################################################
+
+# ------------------------------------------------------------------------------
+# 🧩 PYTHON: Compiled, temporary, and build artifacts
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+.installed.cfg
+MANIFEST
+*.spec
+
+# ------------------------------------------------------------------------------
+# 🧱 ENVIRONMENTS: Virtualenvs, caches, and dependency folders
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+env_old/
+pip-wheel-metadata/
+site-packages/
+wheels/
+
+# ------------------------------------------------------------------------------
+# 🧰 TOOLING: IDEs, editors, OS-level files
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.psess
+*.user
+*.dbmdl
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------------------------
+# 💾 LOGS, TEMP FILES, DIAGNOSTICS
+# ------------------------------------------------------------------------------
+*.log
+*.csv
+*.tmp
+*.bak
+*.swp
+*.swn
+*.swo
+*.err
+*.out
+*.trace
+*.stackdump
+*.dmp
+*.crash
+
+# ------------------------------------------------------------------------------
+# 🔒 SECRETS & CREDENTIALS
+# ------------------------------------------------------------------------------
+.env
+.env.*
+tokens.json
+secret.json
+secrets.json
+credentials.json
+api_keys.json
+config.local.json
+
+# ------------------------------------------------------------------------------
+# 🧱 BACKEND: Private / non-distributed components
+# ------------------------------------------------------------------------------
+backend/
+backend/**
+
+# ------------------------------------------------------------------------------
+# ⚙️ BUILD OUTPUTS: Inno Setup, OBS builds, CMake, etc.
+# ------------------------------------------------------------------------------
+# Ignore OBS build directories
+obs-plugin/build*/
+obs-plugin/RelWithDebInfo/
+obs-plugin/Debug/
+obs-plugin/Release/
+obs-plugin/x64/
+obs-plugin/x86/
+obs-plugin/rundir/
+obs-plugin/CMakeFiles/
+obs-plugin/CMakeScratch/
+obs-plugin/.qt/
+obs-plugin/**/*.tlog
+obs-plugin/**/*.obj
+obs-plugin/**/*.pdb
+obs-plugin/**/*.ilk
+obs-plugin/**/*.exp
+obs-plugin/**/*.lib
+
+# Inno Setup build outputs
+installers/win/Output/
+*.log
+iscc_build.log
+
+# ------------------------------------------------------------------------------
+# 🧩 OTHER PACKAGED OR GENERATED DATA
+# ------------------------------------------------------------------------------
+_internal/
+__compiled__/
+__generated__/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+*.cache/
+.cache/
+
+# ------------------------------------------------------------------------------
+# ⚙️ SYSTEM-SPECIFIC AND MISC
+# ------------------------------------------------------------------------------
+*.exe
+!installers/win/Output/*.exe
+*.dll
+*.msi
+*.bat
+*.cmd
+*.7z
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.iso
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+
+# ------------------------------------------------------------------------------
+# 🧾 DOCS / MISC (optional)
+# ------------------------------------------------------------------------------
+~$*
+*.tmp
+*.bak
+*.orig
+*.rej
+*.patch

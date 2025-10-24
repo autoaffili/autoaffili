@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+faster-whisper
+webrtcvad
+sounddevice
+soundfile
+numpy
+requests
+python-dotenv
+twitchio==2.5.0

@@ -1,0 +1,12 @@
+{
+  "name": "autoaffili",
+  "display_name": "Autoaffili",
+  "version": "0.1.0",
+  "author": "Autoaffili",
+  "website": "https://github.com/openai/obs-smart-links",
+  "description": "Streams OBS mixed audio to the Autoaffili service and launches the helper.",
+  "license": "Proprietary",
+  "platforms": ["windows"],
+  "architecture": ["x64"],
+  "binary": "autoaffili.dll"
+}
