@@ -129,9 +129,6 @@ package-lock.json
 # ⚙️ SYSTEM-SPECIFIC AND MISC
 # ------------------------------------------------------------------------------
 *.exe
-# Include only installer EXEs, ignore everything else in Output
-installers/win/Output/*
-!installers/win/Output/*.exe
 *.dll
 *.msi
 *.bat
