@@ -156,3 +156,8 @@ package-lock.json
 *.orig
 *.rej
 *.patch
+
+# Ignore OBS dependency bundles and large auto-generated data
+obs-plugin/.deps/
+obs-plugin/obs-deps-*/
+obs-plugin/obs-deps-qt6-*/
