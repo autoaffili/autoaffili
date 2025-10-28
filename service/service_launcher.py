@@ -1,6 +1,7 @@
 ﻿# service/service_launcher.py
 
 import os
+from dotenv import load_dotenv
 # Load .env from common locations so packaged EXE picks up settings, not just repo runs
 def _load_envs():
     # 1) service/.env (repo/dev)
