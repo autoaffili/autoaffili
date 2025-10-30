@@ -1,13 +1,13 @@
 ﻿; Inno Setup script (installer.iss) - sketch
 [Setup]
 AppName=Autoaffili
-AppVersion=0.1.0
+AppVersion=0.1.1
 DefaultDirName={localappdata}\autoaffili
 DisableProgramGroupPage=yes
 DisableDirPage=yes
 UsePreviousAppDir=no
 DirExistsWarning=no
-OutputBaseFilename=autoaffili-installer-0.1.0
+OutputBaseFilename=autoaffili-installer-0.1.1
 ; Request elevation via UAC so we can install the plugin globally
 PrivilegesRequired=admin
 PrivilegesRequiredOverridesAllowed=commandline
