@@ -4,10 +4,13 @@ AppName=Autoaffili
 AppVersion=0.1.0
 DefaultDirName={localappdata}\autoaffili
 DisableProgramGroupPage=yes
+DisableDirPage=yes
+UsePreviousAppDir=no
+DirExistsWarning=no
 OutputBaseFilename=autoaffili-installer-0.1.0
 ; Request elevation via UAC so we can install the plugin globally
 PrivilegesRequired=admin
-PrivilegesRequiredOverridesAllowed=dialog
+PrivilegesRequiredOverridesAllowed=commandline
 ; Proactively close running OBS so DLL replacement succeeds
 CloseApplications=force
 ; Ensure helper is closed so ProgramData files can be replaced
