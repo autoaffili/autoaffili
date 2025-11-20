@@ -1,3 +1,5 @@
+This project is no longer supported or functional.  
+
 To support smaller twitch streamers, viewers can make a purchase through an affiliate link. 
 
 Install and use instructions:
